@@ -1,0 +1,149 @@
+@import url(reset.css);
+/*
+  ========================================
+  general
+  ========================================
+*/
+body {
+  background:white;
+  color: #888;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.25rem;
+}
+h1,
+h2 {
+  line-height: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 22px;
+}
+/*
+p{color:red;}
+
+section{color:blue}
+section p {color : green}
+*/
+
+/*
+  ========================================
+  Leads
+  ========================================
+*/
+
+.lead {
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 22px;
+}
+
+.lead p {
+  font-size: 1.3rem;
+  line-height: 33px;
+}
+
+
+
+em{font-style: italic;}
+
+/*
+    ========================================
+    Links
+    ========================================
+  */
+  a {
+    color: #648880;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #a9b2b9;
+  }
+
+
+/*
+  ========================================
+  Schedule
+  ========================================
+*/
+
+table {
+  margin-bottom: 44px;
+  width: 100%;
+}
+
+th,
+td {
+  padding-bottom: 22px;
+  vertical-align: top;
+}
+
+th {
+  padding-right: 45px;
+  text-align: right;
+  width: 20%;
+}
+
+td {
+  width: 40%;
+}
+
+thead th {
+  color: #648880;
+  font-size: 1.5rem;
+}
+
+tbody th {
+  color: #a9b2b9;
+  font-weight: 400;
+  padding-top: 22px;
+  text-transform: uppercase;
+}
+
+tbody td {
+  border-top: 1px solid #dfe2e5;
+  padding-top: 21px;
+}
+
+
+td:only-of-type {
+  color: #a9b2b9;
+}
+
+
+table:last-child {
+  margin-bottom: 0;
+}
+
+tbody td:first-of-type {
+  padding-right: 15px;
+}
+
+tbody td:last-of-type {
+  padding-left: 15px;
+}
+
+tbody td:only-of-type {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+table a {
+  color: #888;
+} 
+
+table a p:first-of-type {
+  color: #648880;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
